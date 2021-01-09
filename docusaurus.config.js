@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'tsungtingdu', 
-  projectName: 'blog',            
+  projectName: 'site',            
   themeConfig: {
     hideableSidebar: true,
     algolia: {
