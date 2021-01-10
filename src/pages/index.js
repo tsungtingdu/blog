@@ -62,8 +62,7 @@ function Home() {
           </div>
         </div>
       </header>
-      <main className="main-page">
-        <div className="empty">test</div>
+      <main>
       </main>
     </Layout>
   );

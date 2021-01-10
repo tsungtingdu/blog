@@ -2,7 +2,7 @@ module.exports = {
   title: `TD's Note`,
   tagline: 'Why is the sky dark at night?',
   url: 'https://tsungtingdu.github.io',
-  baseUrl: '/site/',
+  baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'tsungtingdu', 
@@ -30,7 +30,7 @@ module.exports = {
         //   label: 'docs',
         //   position: 'left',
         // },
-        {to: '/blog', label: 'blog', position: 'left'},
+        {to: '/post', label: 'post', position: 'left'},
         {
           href: 'https://github.com/tsungtingdu',
           label: 'GitHub',
@@ -90,8 +90,8 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          // path: './blog/blog',
-          // routeBasePath: '/',
+          path: './post',
+          routeBasePath: '/post',
           // blogDescription: 'Why is the night sky dark?',
           // postsPerPage: 5,
         },
