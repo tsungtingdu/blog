@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Why is the sky dark at night?',
   url: 'https://tsungtingdu.github.io',
   baseUrl: '/blog/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: false,
   favicon: 'img/favicon.ico',
   organizationName: 'tsungtingdu', 
   projectName: 'site',            
